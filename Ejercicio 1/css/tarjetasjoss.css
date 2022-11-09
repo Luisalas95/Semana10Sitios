@@ -1,0 +1,29 @@
+nav{
+	background: #C2185B;
+	padding: 20px;
+}
+.contenedor{
+	display: flex;
+	flex-wrap: wrap; 
+}
+.columna{
+	background: #197230d1;
+	color: #fff;
+	padding: 20px;
+	width: 23%;
+	margin:0 auto;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+@media(max-width: 1070px){
+	.columna{
+		width: 45%;
+		margin-bottom: 20px;
+	}
+}
+@media(max-width: 600px){
+	.columna{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
