@@ -1,0 +1,39 @@
+.nav-enlace{
+    display: inline-block;
+    background: rgb(13, 170, 233);
+    color:#fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rgb(0, 102, 31);
+}
+nav{
+    background: rgb(0, 110, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+}
+.nav-boton{
+    background: rgb(7, 177, 255);
+    color: rgb(255, 251, 251);
+    padding: 10px 0;
+    border: 2px solid rgb(255, 255, 255);
+    display: none;
+}
+
+@media (max-width: 500px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
