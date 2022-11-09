@@ -18,7 +18,7 @@
       <p>Con contenido flexible.</p>
     </div>
     
-    <!-- Navigation Bar -->
+    <!-- flexbox -->
     <nav>
       <button class="nav-boton" onclick="accion()">Menú</button>
       <a href="index.html" class="nav-enlace desaparece">Josselyn</a>
@@ -26,8 +26,22 @@
     
   </nav>
 
-   
+  <script type="text/javascript">
+		function accion() {
+			console.log("esta funcionando mi boton")
+			var ancla = document.getElementsByClassName('nav-enlace');
+			for (var i = 0; i < ancla.length; i++){
+				ancla[i].classList.toggle("desaparece");
+			}
+		}
+	</script>
+  <div class="navbar">
+    <a href="bestohimno.html">Himno</a>
+    <a href="aurora.html">Aurora Boreal</a>
     
+ 
+  </div>
+  
     <!-- The flexible grid (content) -->
     <div class="row">
       <div class="side">
@@ -39,28 +53,64 @@
         <p>Esta foto es de algo</p>
         <h3>Mas Informacion</h3>
         <p>Halo is a military science fiction media franchise, originally developed by Bungie </p>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div>
+        <div class="tree" style="height:60px;"></div>
+       <img src="img/tree.jpg" width="500" height="250">
+        <br>
+        <div class="Why always me?" style="height:60px;">Why?</div>
+        <img src="img/why.jpg" width="500" height="250"><br>
+        <div class="4K" style="height:60px;">4K</div>
+        <img src="img/4k.jpg" width="500" height="250"><br>
       </div>
       <div class="main">
         <h2>Halo</h2>
         <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;"><a href="Halo.jpg"></div>
+        <div class="Halo" style="height:200px;"> <img src="img/Halo.jpg" width="500" height="200"></div>
         <p>Some text..</p>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <h2>CSC </h2>
+        <h5>VIE VIVE!, Sep 2, 2017</h5>
+        <img src="img/csc.jpg" width="300" height="150">
+        <p>Besto Himno..</p>
+        <p>El más grande sera siempre Cartagines,<br>
+          El equipo de más tradición e historia.<br>
+          El más grande por las glorias que alumbraron el ayer,<br>
+          Y que brillan todavia en mi memoria.<br>
+          <br>
+          El más grande sera siempre Cartagines,<br>
+          Y sera el más grande aun en el mañana.<br>
+          Por el juego por las ganas y el orgullo de tener<br>
+          El color azul que nos inunda el alma.<br>
+          <br>
+          Se oyen los tambores en el Fello Meza,<br>
+          Se viene Cartago se viene la alegria.<br>
+          Y cada hora, cada día Cartagines te quiero más,<br>
+          Como te quiere casi toda Costa Rica.<br>
+          <br>
+          El más grande sera siempre Cartagines,<br>
+          Por su estilo, jugadores y su gente.<br>
+          Porque Cartago no se vende, porque se lleva en la piel<br>
+          Y en cualquier lugar que este siempre va al frente.<br>
+          <br>
+          Se oyen los tambores en el Fello Meza,<br>
+          Se viene Cartago se viene la alegria.<br>
+          Y cada hora, cada día Cartagines te quiero más,<br>
+          Como te quiere casi toda Costa Rica.<br>
+          <br>
+          Hasta que me muera te voy a alentar,<br>
+          Y si volviera a reencarnarme en otra vida,<br>
+          No se por donde viviria de que iria a trabajar,<br>
+          Pero seguro que Cartagines seria!!!!!!.<br>
+          Tomado de AlbumCancionYLetra.com<br>
+          Por el juego por las ganas y el orgullo de tener<br>
+          El color azul que nos inunda el alma.<br>
+          EL COLOR AZUL QUE NOS INUNDA EL ALMA...</p>
       </div>
     </div>
     
     <!-- Footer -->
     <div class="footer">
-      <h2>Footer</h2>
+      <h2>Pie de página de Luis</h2>
     </div>
     
     </body>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aurora Boreal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilacho.css" />
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <!-- flexbox -->   
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="index.html" class="nav-enlace desaparece">Josselyn</a>
+        <a href="#" class="nav-enlace desaparece">Priscilla</a>
+      
+    </nav>
+  
+    <script type="text/javascript">
+          function accion() {
+              console.log("esta funcionando mi boton")
+              var ancla = document.getElementsByClassName('nav-enlace');
+              for (var i = 0; i < ancla.length; i++){
+                  ancla[i].classList.toggle("desaparece");
+              }
+          }
+      </script>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Aurora Boreal</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="Luisindex.html">Inicio</a>
+        <a href="bestohimno.html">Himno</a>
+        
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="main">
+            <h1>Aurora Boreal</h1>
+
+            <p>
+                Es un fenómeno en forma de luminiscencia que se presenta en el cielo nocturno, generalmente en zonas polares, 
+                aunque puede aparecer en otras zonas del mundo durante breves períodos.
+                En el hemisferio sur es conocida como aurora austral y en el hemisferio norte como aurora boreal 
+                (de Aurora, la diosa romana del amanecer, la palabra latina Auster, que significa sur, y la palabra griega Bóreas, que significa norte). 
+            
+            <h3>
+              
+            </h3>
+            
+            <p>
+                Una aurora se produce cuando una eyección de partículas solares cargadas choca con la magnetósfera de la Tierra. 
+                Esta esfera que nos rodea obedece al campo magnético generado por el núcleo de la Tierra, formada por líneas invisibles que parten de los dos polos, 
+                como un imán. Además existen fenómenos muy energéticos, como las fulguraciones o las eyecciones de masa coronal que incrementan la intensidad del viento solar. 
+                Cuando dicha masa solar choca con nuestra esfera protectora, estas radiaciones solares, también conocidas como viento solar, se desplazan a lo largo de dicha esfera. 
+                En el hemisferio que se encuentra en la etapa nocturna de la Tierra en los polos, donde están las otras líneas de campo magnético, se va almacenando dicha energía hasta 
+                que no se puede almacenar más, y esta energía almacenada se dispara en forma de radiaciones electromagnéticas sobre la ionosfera terrestre, creadora, principalmente, de dichos 
+                efectos visuales.
+            </p>
+            
+            <h2>
+                ¿Qué habilidades debes tener?
+            </h2>
+        
+            <p>
+                Si te llama la atención el mundo de la informática y estás pensando estudiar una carrera para especializarte en TI, debes tomar en cuenta algunas habilidades que debes tener.
+                ✓ Debes tener un pensamiento crítico y lógico.<br>
+                ✓ También debes tener destreza para mantener una buena comunicación y disposición para ayudar a otros.<br>
+                ✓ Un punto que también te aportará valor es la creatividad. Un profesional en TI debe estar constantemente mirando opciones a futuro para ayudar a desarrollar soluciones a posibles problemas tecnológicos. <br>
+                ✓ Por lo general, los empleadores buscan personas con capacidad estratégica, resolución de problemas, capacidad de análisis y sobre todo, tener una mente dispuesta al cambio. <br>
+               ¡Esto es todo!<br>
+                Las carreras de TI tienen un gran futuro por delante, así que si te interesa todo lo que conllevan, ¡no dudes en tomarlas como opción!
+            </p>
+            
+        </p>
+        <img src="img/Aurora.jpg" style="height: 350px; margin-right: 350px; margin-left: 350px;" />
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h3 id="footer">©2022 </h3>
+    </div>
+
+</body>
+
+</html>
